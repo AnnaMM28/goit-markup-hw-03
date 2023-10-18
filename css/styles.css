@@ -1,0 +1,253 @@
+body {
+  background-color: #ffffff;
+  color: #434455;
+  color: var(--brand-color);
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--cornflower-color);
+  margin: 0 auto;
+  /*padding-left: 15px;
+  padding-right: 15px; */
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+/*.nav-menu-padding{
+padding-top: 24px;
+padding-bottom: 24px;
+} */
+
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--marka-color);
+}
+
+.link:active {
+  color: var(--marka-color);
+}
+
+.link:focus {
+  color: var(--marka-color);
+}
+:root {
+  --brand-color: #434455;
+  --color-text: #2e2f42;
+  --marka-color: #404bbf;
+  --button-one: #4d5ae5;
+  --cornflower: #e7e9fc;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+  display: inline-block;
+}
+
+.studio-logo {
+  color: #2e2f42;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.button-one {
+  background-color: #f4f4fd;
+  color: var(--button-one);
+  text-align: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-one:hover {
+  background-color: var(--marka-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-one:visited {
+  background-color: var(--marka-color);
+  color: #ffffff;
+}
+
+.button-one:active {
+  background-color: var(--marka-color);
+  color: #ffffff;
+}
+
+.button-one:focus {
+  background-color: var(--marka-color);
+  color: #ffffff;
+}
+
+.heading-portfolio-one {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.paragraph-portfolio {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.paragraph-footer {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.studio-two {
+  color: #f4f4fd;
+}
+
+.contacts-top {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-top:hover,
+.contacts-top:active {
+  color: var(--marka-color);
+}
+
+.section-one {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.head-one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button-two {
+  background-color: var(--button-one);
+  color: var(--White, #ffffff);
+  text-align: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-two:focus {
+  background-color: var(--marka-color);
+}
+
+.button-two:hover {
+  background-color: var(--marka-color);
+}
+
+.heading-section-one {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.head-two-selection {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.paragraph-selection {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.head-twoss {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.list-name {
+  background-color: #ffffff;
+}
+.selection-four {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+.p-selection-four {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+}
+main a {
+  text-decoration: none;
+}
+ul.list li button {
+  text-decoration: none;
+}
+.four-class-one {
+  color: #2e2f42;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
