@@ -311,18 +311,34 @@ ul.list li button {
     margin-top: 25.5px;
 }
 
-.container {
-max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    
 
+
+.container {
+ width: 1158px;
+    margin: 0 auto;
+    padding-left: 0 15px;
+    
+}
+
+.head-one{
+  max-width: 496px;
+}
+.container-menu{
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 0 15px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     margin-left: 76px;
+}
+
+.selection-two-padding{
+  padding: 120px 0 120px;
+
 }
 
 .selection-three {
@@ -367,7 +383,10 @@ max-width: 1158px;
     width: 1158px;
     margin: 0 auto;
 }
-
+.list{
+  gap: 24px;
+  
+}
 .list-contact {
     display: flex;
     align-items: center;
@@ -376,7 +395,12 @@ max-width: 1158px;
     white-space: nowrap;
     padding: 24px 0;
 }
-
+.head-two-selection{
+  margin-bottom: 8px;
+}
+.head-twoss{
+  margin-bottom: 72px;
+}
 .section-portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -397,11 +421,16 @@ max-width: 1158px;
     row-gap: 48px;
 
 }
-
-img {
+.img-list{
+  gap: 24px;
+}
+.img {
     display: block;
     max-width: 100%;
     height: auto;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .text-under-image {
@@ -476,6 +505,20 @@ margin: 0 auto 48px auto;
     white-space: nowrap;
 }
 
+.div-selection-four{
+  padding: 32px 0px;
+}
+.p-selection-four{
+  text-align: center;
+
+}
+.list-name{
+  width: calc((100% - 72px) / 4);
+
+}
+.logo-link-footer{
+  margin-bottom: 16px;
+}
 h1,
 h2,
 h3,
@@ -493,4 +536,8 @@ line-height: 1.2;
 color: #2e2f42;
 justify-content: flex-start;
 margin-bottom: 8px;
+}
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
