@@ -453,6 +453,11 @@ ul {
   max-width: 100%;
   height: auto;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .img-list {
   justify-content: center;
   gap: 24px;
@@ -460,7 +465,7 @@ ul {
   width: calc((100% - 48px) / 3);
 }
 .text-under-img {
-  border: 1px solid var(--cornflower-color);
+  border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
 }
@@ -489,9 +494,12 @@ ul {
 
 .list-style {
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
+.list-style-two {
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+}
 .style-ul {
   gap: 24px;
   display: flex;
